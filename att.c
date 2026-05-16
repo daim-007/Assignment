@@ -20,7 +20,7 @@ int main(){
     }
     else if (r<a){
     b=-(r*n-100*m)/(100-r);
-    printf ("You can afford to leave %.1f classes",ceil (b));
+    printf ("You can afford to leave %.1f classes",floor (b));
     }
     else {
        c=(r*n-100*m)/(100-r);
